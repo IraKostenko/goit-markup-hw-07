@@ -1,0 +1,23 @@
+@media screen and (min-width: 768px) {
+    .container {
+    max-width: 720px;
+}
+.feauters {
+    padding-top: 96px;
+    padding-bottom: 96px;
+}
+.feauters-list {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 24px;
+    row-gap: 72px;
+}
+.feauters-item {
+    flex-basis: calc((100% - 24px) / 2);
+}
+.feauters-subtitle {
+    text-align: left;
+}
+.feauters-desc {
+}
+}
