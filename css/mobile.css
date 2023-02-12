@@ -2,6 +2,9 @@
     .container {
       max-width: 448px;
     }
+    .mob-menu-soc-list {
+      gap: 56px;
+    }
     .hero {
       background-image:  linear-gradient(
         rgba(46, 47, 66, 0.7),
