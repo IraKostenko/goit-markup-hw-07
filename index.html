@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Webstudio</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -21,7 +21,7 @@
     <link rel="stylesheet" href="./css/desktop.css" />
   </head>
   <body>
-    <!-- <header class="header">
+    <header class="header">
       <div class="container header-container">
         <nav class="header-navigation">
           <a class="logo link" href="./index.html"
@@ -54,10 +54,79 @@
             </li>
           </ul>
         </address>
+        <button class="header-menu-btn btn" type="button">
+          <svg class="header-menu-icon" width="32" height="22">
+            <use href="./images/sprite.svg#icon-menu-btn"></use>
+          </svg>
+        </button>
       </div>
-    </header> -->
+      <div class="mob-menu">
+        <button type="button" data-modal-close class="modal-close">
+          <svg class="modal-close-button" width="8" height="8">
+            <use href="./images/sprite.svg#icon-close-black"></use>
+          </svg>
+        </button>
+        <nav>
+          <ul class="mob-menu-list list">
+            <li class="mob-menu-item">
+              <a href="./index.html" class="header-link link current">Studio</a>
+            </li>
+            <li class="mob-menu-item">
+              <a href="./portfolio.html" class="header-link link">Portfolio</a>
+            </li>
+            <li class="mob-menu-item">
+              <a href="#" class="header-link link">Contacts</a>
+            </li>
+          </ul>
+          <address class="mob-menu-adress">
+            <ul class="mob-menu-adress-list list">
+              <li class="mob-menu-adress-item">
+                <a href="mailto:info@devstudio.com" class="header-contacts link"
+                  >info@devstudio.com</a
+                >
+              </li>
+              <li class="mob-menu-adress-item">
+                <a href="tel:+110001111111" class="header-contacts link"
+                  >+11 (000) 111-11-11</a
+                >
+              </li>
+            </ul>
+          </address>
+          <ul class="mob-menu-soc-list list">
+            <li class="mob-menu-soc-item">
+              <a href="" class="mob-menu-soc-link link">
+                <svg class="mob-menu-soc-icon" width="24" height="24">
+                  <use href="./images/sprite.svg#icon-instagram"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="mob-menu-soc-item">
+              <a href="" class="mob-menu-soc-link link">
+                <svg class="mob-menu-soc-icon" width="24" height="24">
+                  <use href="./images/sprite.svg#icon-facebook"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="mob-menu-soc-item">
+              <a href="" class="mob-menu-soc-link link">
+                <svg class="mob-menu-soc-icon" width="24" height="24">
+                  <use href="./images/sprite.svg#icon-twitter"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="mob-menu-soc-item">
+              <a href="" class="mob-menu-soc-link link">
+                <svg class="mob-menu-soc-icon" width="24" height="24">
+                  <use href="./images/sprite.svg#icon-linkedin"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
     <main>
-      <!-- <section class="hero">
+      <section class="hero">
         <div class="container hero-container">
           <h1 class="hero-title">
             Effective Solutions <br />
@@ -67,7 +136,7 @@
             Order Service
           </button>
         </div>
-      </section> -->
+      </section>
 
       <section class="feauters">
         <div class="container">
@@ -154,8 +223,8 @@
         </div>
       </section>
 
-      <section class="team">
-        <div class="container">
+      <!-- <section class="team">
+        <div class="container container-mini">
           <h2 class="team-title title">Our Team</h2>
           <ul class="team-list list">
             <li class="team-item">
@@ -300,8 +369,8 @@
             </li>
           </ul>
         </div>
-      </section>
-      <!-- <section class="customers">
+      </section> -->
+      <section class="customers">
         <div class="container">
           <h2 class="customers-title title">Customers</h2>
           <ul class="customers-list list">
@@ -349,10 +418,10 @@
             </li>
           </ul>
         </div>
-      </section> -->
+      </section>
     </main>
 
-    <!-- <footer class="footer">
+    <footer class="footer">
       <div class="container footer-wrap">
         <div class="footer-container">
           <a href="./index.html" class="logo link"
@@ -417,7 +486,7 @@
           </form>
         </div>
       </div>
-    </footer> -->
+    </footer>
     <div data-modal class="backdrop is-hidden">
       <div class="modal">
         <button type="button" data-modal-close class="modal-close">
