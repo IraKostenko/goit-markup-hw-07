@@ -5,6 +5,9 @@
     .mob-menu-soc-list {
       gap: 56px;
     }
+    .mob-menu-tel {
+      font-size: 36px;
+    }
     .hero {
       background-image:  linear-gradient(
         rgba(46, 47, 66, 0.7),
