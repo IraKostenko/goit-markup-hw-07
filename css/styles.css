@@ -121,7 +121,6 @@ body {
 }
 .header-menu-icon {
   fill: var(--main-color);
-  border: 3px solid var(--main-color);
 }
 .mob-menu {
   position: fixed;
