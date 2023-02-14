@@ -26,7 +26,8 @@
   .hero-title {
     font-size: 56px;
     margin-bottom: 48px;
-}
+  }
+  /* ---------------FEAUTERS------------------- */
   .feauters {
     padding-top: 120px;
     padding-bottom: 120px;
@@ -58,24 +59,24 @@
     font-size: 16px;
     line-height: 1.5;
   }
+  /* ---------------BENEFITS------------------- */
   .benefits {
     display: block;
     padding-bottom: 120px;
   }
-.benefits-title {
+  .benefits-title {
     margin-bottom: 72px;
     text-align: center;
-}
-.benefits-list {
+  }
+  .benefits-list {
     display: flex;
     gap: 24px;
-}
-.benefits-item {
+  }
+  .benefits-item {
     width: calc((100%-48px) / 3);
-}
+  }
   /* ----------TEAM----------------- */
   .team {
-    background-color: var(--background-color);
     padding-top: 120px;
     padding-bottom: 120px;
   }
@@ -84,53 +85,10 @@
     gap: 24px;
   }
   .team-item {
-    background-color: var(--white-color);
-    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
-      0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
-    border-radius: 0px 0px 4px 4px;
     width: calc((100% - 72px) / 4);
   }
-  .team-title {
-    margin-bottom: 72px;
-    text-align: center;
-  }
-  .team-subtitle {
-    margin-top: 32px;
-    text-align: center;
-    margin-bottom: 8px;
-  }
-  .team-desc {
-    text-align: center;
-  }
-  .team-soc-list {
-    display: flex;
-    justify-content: center;
-    gap: 24px;
-    padding-top: 8px;
-    padding-bottom: 32px;
-  }
-  .team-soc-item {
-    width: 40px;
-    height: 40px;
-  }
-  .team-soc-link {
-    width: 100%;
-    height: 100%;
-    background-color: var(--main-violet-color);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border-radius: 50%;
-    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  }
-  .team-soc-link:is(:hover, :focus) {
-    background-color: var(--hover-focus-color);
-  }
-  .team-soc-icon {
-    fill: var(--white-color);
-  }
-/* -------------CUSTOMERS--------------- */
-.customers {
+  /* -------------CUSTOMERS--------------- */
+  .customers {
     padding-top: 120px;
     padding-bottom: 120px;
   }
@@ -143,6 +101,7 @@
     width: calc((100% - 120px) / 5);
     height: 88px;
   }
+  /* ---------------FOOTER------------------- */
   .footer {
     padding-top: 100px;
     padding-bottom: 100px;
@@ -163,6 +122,5 @@
   }
   .footer-subscribe {
     padding-left: 80px;
-
   }
 }
