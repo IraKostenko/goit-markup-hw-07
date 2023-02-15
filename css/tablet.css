@@ -139,6 +139,7 @@
     row-gap: 72px;
     align-items: flex-start;
     justify-content: flex-start;
+    max-width: 552px;
   }
   .footer-container {
     display: flex;

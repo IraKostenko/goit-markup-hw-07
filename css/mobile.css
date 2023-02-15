@@ -33,4 +33,8 @@
     .footer-input {
       min-width: 398px;
     }
+    .modal {
+      width: 408px;
+      min-height: 576px;
+    }
   }
